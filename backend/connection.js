@@ -3,7 +3,7 @@ const dbCon = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'employee'
+    database: 'nodejsapi'
 });
 
 dbCon.connect( (error)=>{
